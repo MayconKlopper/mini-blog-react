@@ -10,7 +10,6 @@ import Grid from '@mui/material/Grid/Grid';
 function Navbar() {
   return (
     <Grid item xs={12} sm={12} md={12}>
-      <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
             <IconButton
@@ -28,7 +27,6 @@ function Navbar() {
             <Button color="inherit">Login</Button>
           </Toolbar>
         </AppBar>
-      </Box>
     </Grid>
   )
 }
