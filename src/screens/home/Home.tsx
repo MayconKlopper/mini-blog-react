@@ -1,11 +1,11 @@
 import Grid from '@mui/material/Grid/Grid'
 
-function About() {
+function Home() {
   return (
     <Grid item xs={12} sm={12} md={12}>
-      <h1>Sobre</h1>
+      <h1>Home</h1>
     </Grid>
   )
 }
 
-export default About
+export default Home
